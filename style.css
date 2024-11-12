@@ -15,13 +15,13 @@ body {
 }
 
 #board {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0 0 8px;
   padding: 10px;
   background: #fff;
   border-radius: 4px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 #board li {
@@ -47,4 +47,19 @@ body {
   margin-bottom: 8px;
   font-size: 20px;
   text-align: right;
+}
+
+#btn {
+  cursor: pointer;
+  user-select: none;
+  background: #f44364;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 0 #ca1a3a;
+}
+
+#btn:active {
+  margin-top: 12px;
+  box-shadow: none;
 }
